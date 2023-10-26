@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See the Hovering Effect On Cards</title>
+    <style>
+        body{
+            position: relative;
+        }
+        .container{
+            width: 310px;
+            margin-left: 300px;
+            
+        }
+        img{
+            width: 290px;
+            height: 250px;
+        }
+        .card{
+            text-align: center;
+            padding: 8px;
+            border-radius: 5px;
+            position: absolute;
+            
+        }
+        .card1{
+            background-color: blue;
+            
+        }
+        .card2{
+            background-color: green;
+            left: 350px;
+            top: 105px;
+            
+        }
+        .card3{
+            position: absolute;
+            top: 155px;
+            left: 395px;
+            background-color: yellow;
+            
+            
+        }
+        h3{
+            margin-top: 0;
+        }
+        .card:hover{
+            z-index: 10;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hover to Unevil the Pokemon</h1>
+    <div class="container">
+        <div class="card card1">
+            <h3>Card 1</h3>
+            <img src="pokemon1.jpg" alt="pokemon1">
+        </div>
+        <div class="card card2">
+            <h3>Card 2</h3>
+            <img src="pokemon2.jpg" alt="pokemon2">
+        </div>
+        <div class="card card3">
+            <h3>Card 3</h3>
+            <img src="pokemon3.jpg" alt="pokemon3">
+        </div>
+    </div>
+</body>
+</html>
